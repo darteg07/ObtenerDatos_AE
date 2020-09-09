@@ -1,0 +1,47 @@
+#main-container {
+  margin: 50px auto;
+  width: 50%;
+}
+/*formulario de vendedor*/
+fieldset {
+background-color: #eeeeee;
+max-width: 300px;
+}
+
+legend {
+background-color: gray;
+color: white;
+padding: 5px 10px;
+}
+
+input {
+margin: 5px;
+}
+
+/*tabla de ventas*/
+table {
+  background-color: white;
+  border-collapse:  collapse;
+  width: 50%;
+
+}
+
+td, th {
+  border: solid 1px black;
+  padding: 10px;
+
+}
+
+thead {
+   background-color: #F7825B;
+   border-bottom: solid 2px #F7490F;
+   color: white;
+}
+
+tr:nth-child(even){
+  background-color: #ddd;
+}
+
+tr:hover td {
+  background-color: #F7490F;
+}
